@@ -5,10 +5,11 @@ registrationForm.addEventListener("submit", function (event) {
   const email = document.getElementById("email").value.trim();
   const password = document.getElementById("password").value;
   const confirmPassword = document.getElementById("confirmPassword").value;
-
+  const brith = document.getElementById("brith").value;
   if (
     name === "" ||
     email === "" ||
+    brith === "" ||
     password === "" ||
     confirmPassword === ""
   ) {
